@@ -4,13 +4,16 @@
 
 Context Finder is a local CLI that helps developers identify the most relevant parts of a codebase before handing work to AI coding assistants.
 
-Instead of letting AI wander through your repository, Context Finder helps you discover the right files, understand the surrounding architecture, identify risks, and prepare focused context you can actually trust.
+Instead of letting AI explore your repository without direction, Context Finder helps you discover the right files, understand the surrounding architecture, identify risks, and prepare focused context you can actually trust.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
 ![Demo](./docs/images/demo.gif)
+
+Context Finder helps you discover the right files, validate assumptions, and prepare focused prompts before collaborating with AI.
+
 ![Help](./docs/images/help.gif)
 
 ---
@@ -260,6 +263,22 @@ Generate implementation guidance before coding begins.
 ### Compatibility
 
 Works with any assistant, not just one editor.
+
+---
+
+## Command Overview
+
+```bash
+ctx "query"             # Find relevant files
+ctx explain auth        # Explain a subsystem
+ctx map billing         # Show relationships
+ctx plan "task"         # Generate modification order
+ctx risk "task"         # Assess risks
+ctx strategy "task"     # Suggest implementation approach
+ctx rules               # Infer conventions
+ctx validate "task"     # AI guardrails
+ctx export "task" chatgpt --copy
+```
 
 ---
 
