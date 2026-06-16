@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and DBs
+.pytest_cache/
+.ctx_cache.db
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Benchmark repositories
+test-repo/
+
+# Internal AI / Agent Context files
+.agents/
+skills-lock.json
+PROJECT_CONTEXT.md
+VISION.md
+TECH_STACK.md
+ROADMAP.md
+SKILLS.md
+ARCHITECTURE_CONSTITUTION.md
+PRD.md
+CHANGELOG.md
+CONTRIBUTING.md
+README2.md
+screenshots/
+
+# Log files and temp files
+*.log
+*.tmp
+*.bak
+generate_gif.py
+
